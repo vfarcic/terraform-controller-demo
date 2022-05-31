@@ -10,7 +10,7 @@ spec:
   approvePlan: auto
   interval: 2m
   varsFrom:
-    kind: Secret
+  - kind: Secret
     name: aws-creds
   sourceRef:
     kind: GitRepository
